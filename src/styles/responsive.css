@@ -40,7 +40,7 @@
   }
   .input-name,
   .select-type {
-    flex: 1 1 5rem;
+    flex: 0;
     width: 100%;
   }
 
