@@ -2,9 +2,9 @@ import "./header.css";
 
 function Header() {
   return (
-    <header class="rental-ticket">
+    <header className="rental-ticket">
       <h1>مدیریت تفریحات من</h1>
-      <p class="tagline">تفریحات هم نیاز به مدیریت دارند</p>
+      <p className="tagline">تفریحات هم نیاز به مدیریت دارند</p>
     </header>
   );
 }

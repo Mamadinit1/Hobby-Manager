@@ -1,17 +1,21 @@
-function Stats() {
+function Stats({ hobbies }) {
+  let completedHobbies = hobbies?.filter((hobby) => {
+    return hobby.isCompleted;
+  });
+
   return (
-    <div class="stats-strip">
-      <div class="stat-stamp">
-        <span class="num">3</span>
-        <span class="lbl">کل آرشیو</span>
+    <div className="stats-strip">
+      <div className="stat-stamp">
+        <span className="num">{hobbies.length}</span>
+        <span className="lbl">همه تفریحات</span>
       </div>
-      <div class="stat-stamp">
-        <span class="num">2</span>
-        <span class="lbl">روی قفسه</span>
+      <div className="stat-stamp">
+        <span className="num">{hobbies.length - completedHobbies.length}</span>
+        <span className="lbl">کامل نشده</span>
       </div>
-      <div class="stat-stamp">
-        <span class="num">1</span>
-        <span class="lbl">برگردونده‌شده</span>
+      <div className="stat-stamp">
+        <span className="num">{completedHobbies.length}</span>
+        <span className="lbl">انجام شده</span>
       </div>
     </div>
   );

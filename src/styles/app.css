@@ -3,6 +3,14 @@
   src: url("/fonts/vazir/Vazir.ttf") format("truetype");
 }
 @font-face {
+  font-family: "vazir light";
+  src: url("/fonts/vazir/Vazir-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "vazir thin";
+  src: url("/fonts/vazir/Vazir-Thin.ttf") format("truetype");
+}
+@font-face {
   font-family: "vazir medium";
   src: url("/fonts/vazir/Vazir-Medium.ttf") format("truetype");
 }
