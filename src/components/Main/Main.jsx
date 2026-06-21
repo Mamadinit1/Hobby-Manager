@@ -4,7 +4,7 @@ import Form from "./Form";
 import Items from "./Items";
 import Stats from "./Stats";
 import "./main.css";
-import "../../styles/responsive.css";
+import "./../../styles/responsive.css";
 import { useState, useMemo } from "react";
 
 function Main() {

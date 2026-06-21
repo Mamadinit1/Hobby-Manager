@@ -1,12 +1,12 @@
 @font-face {
   font-family: "vazir";
-  src: url("../fonts/vazir/Vazir.ttf") format("truetype");
+  src: url("./../fonts/vazir/Vazir.ttf") format("truetype");
 }
 @font-face {
   font-family: "vazir medium";
-  src: url("../fonts/vazir/Vazir-Medium.ttf") format("truetype");
+  src: url("./../fonts/vazir/Vazir-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "vazir bold";
-  src: url("../fonts/vazir/Vazir-Bold.ttf") format("truetype");
+  src: url("./../fonts/vazir/Vazir-Bold.ttf") format("truetype");
 }
