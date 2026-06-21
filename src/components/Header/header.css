@@ -1,0 +1,39 @@
+.rental-ticket {
+  color: #ece3cf;
+  margin-top: 2.8rem;
+  padding: 4rem 2rem;
+  position: relative;
+  clip-path: polygon(
+    0% 8px,
+    8px 0%,
+    calc(100% - 8px) 0%,
+    100% 8px,
+    100% calc(100% - 8px),
+    calc(100% - 8px) 100%,
+    8px 100%,
+    0% calc(100% - 8px)
+  );
+  background: radial-gradient(
+    120% 160% at 20% 0%,
+    #322745 0%,
+    #241b2f 55%,
+    #1a1424 100%
+  );
+  text-align: center;
+}
+.rental-ticket h1 {
+  font-family: "vazir bold";
+  font-size: 2.6rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #e883e5;
+  text-shadow: 0.3rem 0.3rem 0 #5f147d;
+  display: inline-block;
+}
+
+.rental-ticket .tagline {
+  font-family: "vazir light";
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: #c8cce0e5;
+}

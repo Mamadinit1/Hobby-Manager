@@ -1,0 +1,101 @@
+@media (max-width: 600px) {
+  body {
+    padding: 0 1.2rem 6rem;
+  }
+  .app-container {
+    gap: 2rem;
+  }
+
+  .rental-ticket {
+    margin-top: 2rem;
+    padding: 1.8rem 1.8rem 1.6rem;
+  }
+  .rental-ticket h1 {
+    font-size: 2.1rem;
+  }
+  .rental-ticket .tagline {
+    font-size: 1.25rem;
+  }
+
+  .stats-strip {
+    gap: 1rem;
+  }
+  .stat-stamp {
+    min-width: 0;
+    flex: 1 1 30%;
+    padding: 1rem 0.6rem;
+  }
+  .stat-stamp .num {
+    font-size: 1.6rem;
+  }
+  .stat-stamp .lbl {
+    font-size: 0.95rem;
+  }
+
+  .add-card {
+    padding: 1.6rem;
+  }
+  .form-row {
+    flex-direction: column;
+  }
+  .input-name,
+  .select-type {
+    flex: 1 1 5rem;
+    width: 100%;
+  }
+
+  .form-row.bottom {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .btn-submit {
+    width: 100%;
+  }
+
+  .filters-container {
+    gap: 0.6rem;
+    padding: 1rem;
+  }
+  .filter-btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  .item-card {
+    flex-wrap: nowrap;
+  }
+  .cassette-spine {
+    width: 1rem;
+  }
+  .btn-complete-zone {
+    width: 4.4rem;
+  }
+  .btn-complete {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+
+  .item-body {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.4rem;
+  }
+  .item-title {
+    max-width: 100%;
+    white-space: normal;
+  }
+  .btn-delete {
+    align-self: flex-end;
+    margin-top: -0.6rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .rental-ticket h1 {
+    font-size: 1.8rem;
+  }
+  .stat-stamp {
+    flex: 1 1 100%;
+  }
+}
