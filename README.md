@@ -1,7 +1,7 @@
-# 🎬 مدیریت تفریحات من
+# 🎬 Hobby Manager
 
-> یک لیست شیک و کاملاً تعاملی برای مدیریت تفریحاتی که می‌خوای تجربه کنی — ساخته‌شده با **HTML, CSS (Flexbox)، و JavaScript و React**
-> 
+> A sleek, fully interactive list for managing the movies, shows, and games you want to experience — built with **HTML, CSS (Flexbox), JavaScript, and React**.
+
 <div align="center">
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -14,52 +14,63 @@
 
 ---
 
-## 📸 پیش‌نمایش
+## 🔗 Live Demo
+
+**[👉 View Live Demo](https://mamadinit1.github.io/Hobby-Manager/)**
+
+---
+
+## 📸 Preview
 
 <div align="center">
-  <img src="./preview.png" alt="پیش‌نمایش پروژه" width="700">
+  <img src="./preview.png" alt="Project preview" width="700">
 </div>
 
 ---
 
-## ✨ ویژگی‌ها
+## ✨ Features
 
-- 🗂️ **افزودن آیتم جدید** — فیلم، کتاب یا بازی، با امکان علامت‌گذاری «اولویت بالا»
-- ✅ **علامت‌گذاری به‌عنوان انجام شده** با یک کلیک
-- 🗑️ **حذف آیتم‌ها** از لیست
-- 🔍 **فیلتر کردن** بر اساس وضعیت (کامل نشده / انجام شده) یا نوع محتوا (فیلم / سریال / بازی) یا اولویت
-- 📊 **آمار زنده** (کل موارد، باقی‌مانده، انجام شده) که با هر تغییر آپدیت می‌شه
-- 📱 **کاملاً ریسپانسیو** — تجربه‌ی یکسان روی موبایل، تبلت و دسکتاپ
-- 🎨 **طراحی اختصاصی** با هویت بصری منحصربه‌فرد (نه یک قالب عمومی)
+- 🗂️ **Add new items** — movies, books, or games, with an optional "high priority" flag
+- ✅ **Mark as done** with a single click
+- 🗑️ **Delete items** from the list
+- 🔍 **Filter** by status (not done / done), content type (movie / book / game), or priority
+- 📊 **Live stats** (total items, remaining, done) that update instantly with every change
+- 📱 **Fully responsive** — a consistent experience across mobile, tablet, and desktop
+- 🎨 **Custom design** with a distinctive visual identity (not a generic template)
+
 ---
 
-## 🛠️ تکنولوژی‌ها
+## 🛠️ Tech Stack
 
-| تکنولوژی                 | استفاده                                          |
-| ------------------------ | ------------------------------------------------ |
-| **HTML5**                | ساختار معنایی صفحه                               |
-| **CSS3 (Flexbox)**       | چیدمان کامل ریسپانسیو بدون Grid یا فریم‌ورک      |
-| **JavaScript (ES6+)**    | منطق برنامه — مدیریت state، event handling       |
-| **React 18**             | ساختار کامپوننتی، state management، Lifting State Up |
-| **Vite**                 | Bundler سریع برای توسعه                          |
+| Technology            | Purpose                                        |
+| --------------------- | ---------------------------------------------- |
+| **HTML5**             | Semantic page structure                        |
+| **CSS3 (Flexbox)**    | Fully responsive layout, no Grid or framework  |
+| **JavaScript (ES6+)** | App logic                                      |
+| **React 18**          | Component architecture, state management,state |
+| **Vite**              | Fast bundler for development                   |
+
 ---
 
-## 🚀 اجرا
+## 🚀 Getting Started
 
 ```bash
 git clone https://github.com/Mamadinit1/Hobby-Manager.git
 cd Hobby-Manager
 ```
 
-سپس فایل `index.html` رو با یک سرور لوکال اجرا کن:
+Install dependencies and start the dev server:
 
 ```bash
-# با VS Code Live Server
+npm install
+npm run dev
 ```
+
+Then open the local address shown in your terminal (usually `http://localhost:5173`).
 
 ---
 
-## 📁 ساختار پروژه
+## 📁 Project Structure
 
 ```
 Hobby Manager/
@@ -103,18 +114,18 @@ Hobby Manager/
 
 ---
 
-## 🎯 درباره‌ی این پروژه
+## 🎯 About This Project
 
-این پروژه به‌عنوان یک **تمرین یادگیری REACT** ساخته شده
+This project was built as a **React learning exercise**.
 
 ---
 
-## 📝 لایسنس
+## 📝 License
 
-این پروژه آزاد است برای استفاده، یادگیری و توسعه‌ی شخصی.
+This project is free to use, learn from, and build upon.
 
 ---
 
 <div align="center">
-  ساخته‌شده با 💜 برای تمرین و یادگیری
+  Built with 💜 for practice and learning
 </div>
