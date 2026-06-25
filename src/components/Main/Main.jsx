@@ -1,36 +1,20 @@
-import { nanoid } from "nanoid";
 import Filters from "./Filters";
 import Form from "./Form";
 import Items from "./Items";
 import Stats from "./Stats";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 
 function Main() {
-  const [hobbies, setHobbies] = useState([
-    {
-      id: nanoid(),
-      title: "Max Payne 2",
-      category: "game",
-      isHighPriority: true,
-      isCompleted: false,
-    },
-    {
-      id: nanoid(),
-      title: "Vikings",
-      category: "movie",
-      isHighPriority: false,
-      isCompleted: false,
-    },
-    {
-      id: nanoid(),
-      title: "Witcher 3",
-      category: "book",
-      isHighPriority: false,
-      isCompleted: true,
-    },
-  ]);
-
+  const [hobbies, setHobbies] = useState([]);
   const [filterValue, setFilterValue] = useState("all");
+  useEffect(() => {
+    const localHobbies = JSON.parse(localStorage.getItem("hobbies"));
+    localHobbies ? setHobbies(localHobbies) : setHobbies([]);
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("hobbies", JSON.stringify(hobbies));
+  }, [hobbies]);
 
   const filteredHobbies = (() => {
     switch (filterValue) {

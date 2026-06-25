@@ -12,7 +12,6 @@ function Item({ hobby, setHobbies }) {
   const deleteHobby = (id) => {
     setHobbies((prev) => prev.filter((item) => item.id !== id));
   };
-
   return (
     <div className={`item-card ${hobby.isCompleted ? "completed" : " "}`}>
       <div className="cassette-spine"></div>
